@@ -121,7 +121,7 @@ body{
 }
 
 .attribution{
-    font-size: 11px;
+    font-size: 1.5vh;
     text-align: center;
     color: hsl(228, 45%, 44%);
     position: absolute;
@@ -135,8 +135,8 @@ body{
     .card{
         margin: auto;
         display: grid;
-        width: 700px;
-        height: 480px;
+        width: 41vw;
+        height: 56vh;
         
         grid-template-columns: 50%;
         grid-template-areas: "img text";
