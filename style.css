@@ -26,25 +26,26 @@ body{
     background-color: var(--White);
     margin: auto;
     width: 87vw;
-    height: 93vh;
+    height: 92vh;
     border-radius: 10px;
     overflow: hidden;
     display: grid;
     grid-template-rows: 250px 1fr;
     position: absolute;
-    top: 50%;
+    top: 50.5%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .card__img{
+    height: 36vh;
     background-image: url(images/image-product-mobile.jpg);
     background-size: cover;
     border-radius: 10px 10px 0 0;
 }
 
 .card__text{
-    padding: 22px;
+    padding: 2vh 6vw;
 }
 
 .card__pretitle{
@@ -60,7 +61,7 @@ body{
     font-family: var(--font2);
     line-height: 30px;
     padding: 12px 0;
-    font-size: 33px;
+    font-size: 4.8vh;
 }
 
 .card__content{
@@ -68,24 +69,25 @@ body{
     color: var(--Dark-grayish-blue);
     opacity: 0.6;
     font-weight: 700;
-    line-height: 23px;
+    font-size: 2.05vh;
+    line-height: 3.5vh;
     padding: 6px 0;
 }
 
 .card__pricecontainer{
     display: flex;
-    padding: 10px 0;
+    padding: 2vh 0;
 }
 
 .card__price{
     font-family: var(--font2);
     color: var(--Dark-cyan);
-    font-size: 33px;
+    font-size: 4.85vh;
 }
 
 .card__pricest{
     place-self: center ;
-    margin: 0 20px;
+    margin: 0 4.5vw;
     font-family: var(--font1);
     color: var(--Dark-grayish-blue);
     opacity: 0.6;
@@ -95,17 +97,16 @@ body{
 }
 
 .card__cta{
-    
     width: 100%;
-    height: 50px;
+    height: 7.2vh;
     background-color: var(--Dark-cyan);
     border-radius: 7px;
     display: flex;
-    padding: 15px 0;
-   justify-content: center;
-   
-   color: var(--White);
-   text-decoration: none;
+    margin-top: 0.6vh;
+    padding: 1vh;
+    justify-content: center;
+    color: var(--White);
+    text-decoration: none;
 }
 
 .card__ctaimg{
@@ -116,8 +117,8 @@ body{
     align-self: center;
     font-weight: 700;
     font-family: var(--font1);
-    font-size: 14px;
-    padding: 0 10px;
+    font-size: 2.1vh;
+    padding-left: 3vw;
 }
 
 .attribution{
