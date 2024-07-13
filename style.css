@@ -134,21 +134,21 @@ body{
 @media (min-width: 1440px) {
 
     .card{
-        margin: auto;
+        /* margin: auto; */
         display: grid;
         width: 41vw;
         height: 56vh;
-        
         grid-template-columns: 50%;
         grid-template-areas: "img text";
         align-self: stretch;
+        top: 50%;
     }
 
     .card__img{
         background-image: url(images/image-product-desktop.jpg);
         background-size: cover;
         border-radius: 10px 0 0 10px;
-        height: 480px;
+        height: 50vh;
     }
 
     .card__text{
