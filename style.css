@@ -24,7 +24,7 @@ body{
 
 .card{
     background-color: var(--White);
-    margin: auto;
+    /* margin: auto; */
     width: 87vw;
     border-radius: 10px;
     position: absolute;
@@ -117,6 +117,7 @@ body{
 }
 
 .attribution{
+    padding-top: 1vh;
     font-size: 2vh;
     text-align: center;
     color: hsl(228, 45%, 44%);
