@@ -137,7 +137,7 @@ body{
         /* margin: auto; */
         display: grid;
         width: 41vw;
-        height: 56vh;
+        /* height: 56vh; */
         grid-template-columns: 50%;
         grid-template-areas: "img text";
         align-self: stretch;
@@ -148,30 +148,53 @@ body{
         background-image: url(images/image-product-desktop.jpg);
         background-size: cover;
         border-radius: 10px 0 0 10px;
-        height: 50vh;
+        height: 56vh;
     }
 
     .card__text{
-        padding: 35px 33px;
+        padding: 3.5vh 2vw;
     }
 
     .card__pretitle{
-        letter-spacing: 6px;
+        font-size: 2vh;
+        letter-spacing: 0.26vw;
     }
 
     .card__title{
-        line-height: 35px;
-        padding: 19px 0;
-        font-size: 40px;
+        line-height: 4vh;
+        padding: 2vh 0;
+        padding-right: 3vw;
+        font-size: 4vh;
     }
 
     .card__content{
-        line-height: 24px;
-        padding: 8px 0;
+        line-height: 2.9vh;
+        /* letter-spacing: -0.1vw; */
+        padding: 1.4vh 1vw 1.4vh 0;
+        font-size: 1.7vh;
+    }
+
+    .card__pricecontainer{
+        padding: 1.5vh 0;
+    }
+
+    .card__price{
+        font-size: 4.1vh;
+    }
+
+    .card__pricest{
+        margin: 0 0 0 1.2vw;
+        font-size: 1.6vh;
     }
 
     .card__cta{
-        padding: 0px 0;
-        margin-top: 10px;
+        /* padding: 1vh; */
+        margin-top: 1.7vh;
+        height: 6vh;
+    }
+
+    .card__ctatext{
+        font-size: 1.75vh;
+        padding-left: 0.7vw;
     }
 }
