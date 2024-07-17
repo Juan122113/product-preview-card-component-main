@@ -22,7 +22,7 @@ html {
 
 body{
     background-color: var(--Cream);
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 }
 
@@ -121,7 +121,7 @@ body{
 }
 
 .attribution{
-    padding-top: 1vh;
+    padding-top: 3vh;
     font-size: 2vh;
     text-align: center;
     color: hsl(228, 45%, 44%);
@@ -200,6 +200,8 @@ body{
     }
 
     .attribution {
+        padding-top: 0;
+        top: 97%;
         font-size: 1vw;
     }
 }
