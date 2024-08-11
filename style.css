@@ -163,16 +163,15 @@ body{
     }
 
     .card__title{
-        line-height: 4vh;
-        padding: 2vh 0;
-        padding-right: 3vw;
-        font-size: 4vh;
+        line-height: 1em;
+        padding: 0.6em 1em 0.4em 0;
+        font-size: 2.3em;
     }
 
     .card__content{
-        line-height: 2.9vh;
-        padding: 1.4vh 1vw 1.4vh 0;
-        font-size: 1.7vh;
+        line-height: 1.7em;
+        padding: 0.5em 1em 0.5em 0;
+        font-size: 1em;
     }
 
     .card__pricecontainer{
