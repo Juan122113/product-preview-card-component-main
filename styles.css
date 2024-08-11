@@ -24,7 +24,7 @@ body{
     min-height: 100vh;
     /* width: 100%; */
     font-size: 14px;
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,14 +46,16 @@ body{
     width: 21.5rem;
     /* max-width: 91%; */
     border-radius: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
     /* max-height: 90vh; */
     /* margin: 0 auto; */
     /* bottom: 0; */
     /* right: 0%; */
+    align-self: center;
+    margin-top: auto;
 }
 
 .card__img{
@@ -143,7 +145,7 @@ body{
     padding-left: 1em;
 }
 
-.attribution{
+footer{
     font-size: 0.9em;
     text-align: center;
     color: hsl(228, 45%, 44%);
