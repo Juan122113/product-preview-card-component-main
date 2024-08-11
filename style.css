@@ -7,8 +7,6 @@
 
     --font1: 'Montserrat', sans-serif;
     --font2: 'Fraunces', serif;
-
-    /* font-size: 14vh; */
 }
 
 *{
@@ -23,46 +21,46 @@ html {
 body{
     background-color: var(--Cream);
     min-height: 100vh;
-    height: 100vh;
     width: 100%;
+    font-size: 14px;
 }
 
 .card{
     background-color: var(--White);
-    /* margin: auto; */
-    width: 87vw;
+    width: 21.5rem;
     border-radius: 10px;
     position: absolute;
-    top: 50.5%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-width: 91%;
 }
 
 .card__img{
-    height: 36vh;
+    height: 15rem;
     background-image: url(images/image-product-mobile.jpg);
     background-size: cover;
     border-radius: 10px 10px 0 0;
 }
 
 .card__text{
-    padding: 3vh 6vw;
+    padding: 1.5rem;
 }
 
 .card__pretitle{
    font-family: var(--font1);
-   letter-spacing: 1vw;
+   letter-spacing: 0.3rem;
    font-weight: 700;
-   font-size: 2.4vh;
+   font-size: 0.85rem;
    color: var(--Dark-grayish-blue);
    opacity: 0.6;
 }
 
 .card__title{
     font-family: var(--font2);
-    line-height: 5vh;
-    padding: 2.08vh 0;
-    font-size: 4.8vh;
+    line-height: 2rem;
+    padding: 0.85rem 0;
+    font-size: 2rem;
 }
 
 .card__content{
@@ -70,60 +68,64 @@ body{
     color: var(--Dark-grayish-blue);
     opacity: 0.6;
     font-weight: 700;
-    font-size: 2.05vh;
-    line-height: 3.5vh;
+    font-size: 0.85rem;
+    line-height: 1.5rem;
 }
 
 .card__pricecontainer{
     display: flex;
-    padding: 2.5vh 0;
+    padding: 1.2em 0;
 }
 
 .card__price{
     font-family: var(--font2);
     color: var(--Dark-cyan);
-    font-size: 4.85vh;
+    font-size: 2.3em;
 }
 
 .card__pricest{
     place-self: center ;
-    margin: 0 0 0 4.5vw;
+    margin: 0 0 0 1.1rem;
     font-family: var(--font1);
     color: var(--Dark-grayish-blue);
     opacity: 0.6;
     text-decoration: line-through;
     font-weight: 700;
-    font-size: 1.9vh;
+    font-size: 0.9rem;
 }
 
 .card__cta{
     width: 100%;
-    height: 7.2vh;
+    height: 3.5em;
     background-color: var(--Dark-cyan);
     border-radius: 7px;
     display: flex;
-    padding: 1vh;
+    padding: 0.8em;
     justify-content: center;
     color: var(--White);
     text-decoration: none;
 }
 
+.card__cta:hover {
+    background-color: hsl(157, 85%, 13%);
+}
+
 .card__ctaimg{
     align-self: center;
-    height: 2.3vh;
+    height: 1.3em;
 }
 
 .card__ctatext{
     align-self: center;
     font-weight: 700;
     font-family: var(--font1);
-    font-size: 2.1vh;
-    padding-left: 3vw;
+    font-size: 1em;
+    padding-left: 1em;
 }
 
 .attribution{
-    padding-top: 3vh;
-    font-size: 2vh;
+    /* padding-top: 3vh; */
+    font-size: 1em;
     text-align: center;
     color: hsl(228, 45%, 44%);
     position: absolute;
