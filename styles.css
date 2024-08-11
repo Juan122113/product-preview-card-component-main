@@ -16,29 +16,44 @@
 
 html {
     height: 100%;
+    /* position: relative; */
 }
 
 body{
     background-color: var(--Cream);
     min-height: 100vh;
-    width: 100%;
+    /* width: 100%; */
     font-size: 14px;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* padding-bottom: 1rem; */
 }
+
+/* .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+} */
 
 .card{
     background-color: var(--White);
     width: 21.5rem;
+    /* max-width: 91%; */
     border-radius: 10px;
-    position: relative;
-    /* top: 50%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
-    max-width: 91%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* max-height: 90vh; */
+    /* margin: 0 auto; */
+    /* bottom: 0; */
+    /* right: 0%; */
 }
 
 .card__img{
@@ -132,15 +147,18 @@ body{
     font-size: 1em;
     text-align: center;
     color: hsl(228, 45%, 44%);
-    position: absolute;
+    /* position: absolute; */
     /* top: 100%; */
-    bottom: 0;
-    left: 0;
-    right: 0;
+    /* bottom: 0; */
+    /* left: 0; */
+    /* right: 0; */
     /* transform: translate(-50%); */
+    /* width: 100%; */
+    /* height: 1rem; */
+    margin-top: auto;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 730px) {
 
     .card{
         display: grid;
@@ -150,13 +168,15 @@ body{
         grid-template-areas: "img text";
         /* align-self: stretch; */
         /* top: 50%; */
+        /* max-height: 90%; */
     }
 
     .card__img{
         background-image: url(images/image-product-desktop.jpg);
         background-size: cover;
         border-radius: 10px 0 0 10px;
-        height: 100%;
+        height: auto;
+        /* max-height: 90%; */
     }
 
     .card__text{
@@ -207,3 +227,10 @@ body{
         padding-left: 1em;
     }
 }
+
+/* @media (max-height: 475px) {
+    .attribution {
+        margin-top: 1rem;
+        font-size: 10rem;
+    }
+} */
