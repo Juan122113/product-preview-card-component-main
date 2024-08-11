@@ -23,6 +23,7 @@ body{
     min-height: 100vh;
     width: 100%;
     font-size: 14px;
+    position: relative;
 }
 
 .card{
@@ -128,8 +129,9 @@ body{
     font-size: 1em;
     text-align: center;
     color: hsl(228, 45%, 44%);
-    position: absolute;
-    top: 100%;
+    position: relative;
+    top: 100vh;
+    /* bottom: 20vh; */
     left: 50%;
     transform: translate(-50%);
 }
@@ -154,7 +156,7 @@ body{
     }
 
     .card__text{
-        padding: 2.1em;
+        padding: 2.1em 2.6em 2.1em 2.1em;
     }
 
     .card__pretitle {
@@ -164,46 +166,46 @@ body{
 
     .card__title{
         line-height: 1em;
-        padding: 0.6em 1em 0.4em 0;
+        padding: 0.6em 1em 0.6em 0;
         font-size: 2.3em;
     }
 
     .card__content{
         line-height: 1.7em;
-        padding: 0.5em 1em 0.5em 0;
-        font-size: 1em;
+        padding: 0.5em 1em 0.7em 0;
+        font-size: 0.95em;
     }
 
     .card__pricecontainer{
-        padding: 1.5vh 0;
+        padding: 1em 0 0.9em 0;
     }
 
     .card__price{
-        font-size: 4.1vh;
+        font-size: 2.3em;
     }
 
     .card__pricest{
-        margin: 0 0 0 1.2vw;
-        font-size: 1.6vh;
+        margin: 0 0 0 1.5em;
+        font-size: 0.95em;
     }
 
     .card__cta{
-        margin-top: 1.7vh;
-        height: 6vh;
+        margin-top: 1em;
+        height: 3.4em;
     }
 
     .card__ctaimg{
-        height: 2vh;
+        height: 1.1em;
     }
 
     .card__ctatext{
-        font-size: 1.75vh;
-        padding-left: 0.7vw;
+        font-size: 1em;
+        padding-left: 1em;
     }
 
     .attribution {
-        padding-top: 0;
-        top: 97%;
+        /* padding-top: 0; */
+        /* top: 97%; */
         font-size: 1vw;
     }
 }
