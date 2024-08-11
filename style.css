@@ -138,7 +138,7 @@ body{
 
     .card{
         display: grid;
-        width: 41vw;
+        width: 38rem;
         height: auto;
         grid-template-columns: 50%;
         grid-template-areas: "img text";
@@ -154,12 +154,12 @@ body{
     }
 
     .card__text{
-        padding: 3.5vh 2vw;
+        padding: 2.1em;
     }
 
-    .card__pretitle{
-        font-size: 2vh;
-        letter-spacing: 0.26vw;
+    .card__pretitle {
+        font-size: 1em;
+        letter-spacing: 0.38em;
     }
 
     .card__title{
