@@ -28,13 +28,21 @@ body{
     justify-content: center;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
 .card{
     background-color: var(--White);
     width: 21.5rem;
     /* max-width: 91%; */
     border-radius: 10px;
-    align-self: center;
-    margin-top: auto;
+    /* align-self: center; */
+    /* margin-top: auto; */
 }
 
 .card__img{
